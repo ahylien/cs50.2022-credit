@@ -30,6 +30,9 @@ int main(void)
         return 0;
     }
 
+// Digits counter
+    int counter = get_counter(n);
+
 // Check credit cards
     // start digits
     int c16 = n / 100000000000000;
